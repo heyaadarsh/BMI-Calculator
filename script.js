@@ -36,6 +36,9 @@ form.addEventListener('submit', (e) => {
     else if (bmi>30){
         results.innerHTML = `<span>BMI: ${bmi} - Obese 2</span>`;
     }
+    else if(bmi== undefined){
+        results.innerHTML = `<span>Enter valid height & weight.</span>`;
+    }
     else{
         results.innerHTML = `<span>BMI: ${bmi}</span>`;
     }
