@@ -37,6 +37,6 @@ form.addEventListener('submit', (e) => {
         results.innerHTML = `<span>BMI: ${bmi} - Obese 2</span>`;
     }
     else{
-        results.innerHTML = `<span>BMI: ${bmi}`;
+        results.innerHTML = `<span>BMI: ${bmi}</span>`;
     }
 });
