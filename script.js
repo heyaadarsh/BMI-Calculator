@@ -33,7 +33,10 @@ form.addEventListener('submit', (e) => {
     else if(bmi>=25 && bmi<=29.9){
         results.innerHTML = `<span>BMI: ${bmi} - Obese 1</span>`;
     }
-    else{
+    else if (bmi>30){
         results.innerHTML = `<span>BMI: ${bmi} - Obese 2</span>`;
+    }
+    else{
+        results.innerHTML = `<span>BMI: ${bmi}`;
     }
 });
